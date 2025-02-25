@@ -48,7 +48,7 @@ app.get("/auth/callback", async (req, res) => {
         const accessToken = response.data.access_token;
         console.log(response.data);
         storeTokens[shop] = accessToken;
-        saveTokens();
+        
         console.log("Access Token:", accessToken);
 
         res.send("Authentication successful! You can now fetch data.");
