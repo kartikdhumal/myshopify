@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 const SHOPIFY_API_KEY = "9cffa3f7656b20a58f9b29bd6ede999f";
 const SHOPIFY_API_SECRET = "7b26326081ecf1a5f19a0c6e1a999982";
-const NGROK_URL = "https://5e6b-2402-3a80-1cf0-c224-c10f-3c02-392a-6164.ngrok-free.app";
+const NGROK_URL = "https://myshopify-server.vercel.app";
 const SCOPE = "read_products,write_products,read_customers,write_customers,read_orders,write_orders,read_draft_orders,write_draft_orders,read_inventory,write_inventory,read_shipping,write_shipping,read_fulfillments,write_fulfillments,read_discounts,write_discounts,read_marketing_events,write_marketing_events,read_checkouts,write_checkouts,read_price_rules,write_price_rules,read_shopify_payments_payouts,read_reports,read_analytics";
 
 const TOKEN_FILE = "tokens.json";
